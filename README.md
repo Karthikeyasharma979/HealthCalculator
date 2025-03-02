@@ -12,47 +12,48 @@ The **Health Calculator** is a gym management system designed to help users trac
 - **Responsive UI**: Simple and interactive interface for ease of use.
 
 ## 🛠️ Technologies Used
-- **Programming Languages**: Python, Java
+- **Programming Languages**: Java, Python
 - **Database**: MySQL
-- **Frameworks & Libraries**: Streamlit (for Python frontend), Java Swing (for Java UI)
+- **Frameworks & Libraries**: Java Swing (for Java UI), Streamlit (for Python UI)
 - **Tools**: VSCode, MySQL Workbench
 
 ## 📂 Project Structure
 ```
-/health_calculator
-│── /frontend (Java Swing UI)
-│── /streamlit_app (Streamlit-based Python UI)
-│── /database (MySQL scripts for data storage)
-│── README.md (Project documentation)
-│── requirements.txt (Python dependencies)
-│── HealthCalculator.java (Java Swing main UI file)
-│── app.py (Streamlit frontend entry point)
+/HealthCalculator
+├── .vscode/                   # Visual Studio Code configuration files
+├── bin/                       # Compiled binary files
+├── image/                     # Image assets
+├── lib/                       # External libraries
+├── myapp/                     # Application source code
+│   ├── Main.java              # Main application entry point
+│   └── ...                    # Other Java source files
+├── src/                       # Additional source code
+│   └── ...                    # Source files
+├── README.md                  # Project documentation
+├── design.exe                 # Executable file for the application
+├── design.jar                 # Java Archive file for the application
+├── patients_patientdata.sql   # SQL script for patient data
+└── patients_routines.sql      # SQL script for patient routines
 ```
 
 ## 🔧 Setup & Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Karthikeyasharma979/health_calculator.git
-   cd health_calculator
+   git clone https://github.com/Karthikeyasharma979/HealthCalculator.git
+   cd HealthCalculator
    ```
-2. Install dependencies:
+2. Setup MySQL database:
+   - Import `patients_patientdata.sql` and `patients_routines.sql` into MySQL Workbench.
+   - Update database connection settings in the application.
+3. Compile and run the Java Swing application:
    ```sh
-   pip install -r requirements.txt
+   javac -d bin src/myapp/*.java
+   java -cp bin myapp.Main
    ```
-3. Setup MySQL database:
-   - Import the provided SQL file into MySQL Workbench.
-   - Update database connection settings.
-4. Run the Streamlit frontend application:
+4. (Optional) Run the Streamlit frontend application:
    ```sh
    streamlit run app.py
    ```
-5. (Optional) Run the Java Swing application:
-   - Navigate to the `frontend` directory.
-   - Compile and run the Java Swing application:
-     ```sh
-     javac HealthCalculator.java
-     java HealthCalculator
-     ```
 
 ## 📌 Usage
 1. Sign up or log in to the system.
