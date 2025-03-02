@@ -14,19 +14,19 @@ The **Health Calculator** is a gym management system designed to help users trac
 ## 🛠️ Technologies Used
 - **Programming Languages**: Python, Java
 - **Database**: MySQL
-- **Frameworks & Libraries**: Flask (for Python backend), Java Swing (for UI)
+- **Frameworks & Libraries**: Streamlit (for Python frontend), Java Swing (for Java UI)
 - **Tools**: VSCode, MySQL Workbench
 
 ## 📂 Project Structure
 ```
 /health_calculator
-│── /backend (Flask API handling health calculations)
 │── /frontend (Java Swing UI)
+│── /streamlit_app (Streamlit-based Python UI)
 │── /database (MySQL scripts for data storage)
 │── README.md (Project documentation)
 │── requirements.txt (Python dependencies)
-│── main.py (Entry point for backend server)
 │── HealthCalculator.java (Java Swing main UI file)
+│── app.py (Streamlit frontend entry point)
 ```
 
 ## 🔧 Setup & Installation
@@ -41,12 +41,12 @@ The **Health Calculator** is a gym management system designed to help users trac
    ```
 3. Setup MySQL database:
    - Import the provided SQL file into MySQL Workbench.
-   - Update database connection settings in the backend.
-4. Run the backend server:
+   - Update database connection settings.
+4. Run the Streamlit frontend application:
    ```sh
-   python main.py
+   streamlit run app.py
    ```
-5. Run the frontend application:
+5. (Optional) Run the Java Swing application:
    - Navigate to the `frontend` directory.
    - Compile and run the Java Swing application:
      ```sh
