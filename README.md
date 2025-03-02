@@ -65,9 +65,6 @@ The **Health Calculator** is a gym management system designed to help users trac
 ## 🤝 Contributing
 Contributions are welcome! Feel free to submit issues or pull requests.
 
-## 📜 License
-This project is licensed under the MIT License.
-
 ## 📞 Contact
 - **Developer**: Koratamaddi Karthikeyasharma
 - **GitHub**: [@Karthikeyasharma979](https://github.com/Karthikeyasharma979)
