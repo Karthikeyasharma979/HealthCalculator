@@ -66,7 +66,7 @@ The **Health Calculator** is a gym management system designed to help users trac
 Contributions are welcome! Feel free to submit issues or pull requests.
 
 ## 📞 Contact
-- **Developer**: Koratamaddi Karthikeyasharma
-- **GitHub**: [@Karthikeyasharma979](https://github.com/Karthikeyasharma979)
-- **Email**: karthikeyasharma979@gmail.com
+- **Developer**: Ramaraju Paarthiv
+- **GitHub**: [@paarthiv54](https://github.com/Karthikeyasharma979)
+- **Email**: paarthiv.ramaraju2004@gmail.com
 
