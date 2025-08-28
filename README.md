@@ -62,6 +62,5 @@ The **Health Calculator** is a gym management system designed to help users trac
 4. Access personalized workout plans.
 5. Track progress over time.
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to submit issues or pull requests.
+
 
